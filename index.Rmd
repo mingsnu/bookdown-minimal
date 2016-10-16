@@ -3,6 +3,9 @@ title: "A Book"
 author: "Frida Gomam"
 site: bookdown::bookdown_site
 documentclass: book
+bibliography: ["reference.bib"]
+biblio-style: "apalike"
+link-citations: true
 output:
   bookdown::gitbook: default
   bookdown::pdf_book: default
@@ -11,5 +14,6 @@ output:
 # Hello World
 
 Hi.
+This is a cite[@R-base].
 
 Bye.
